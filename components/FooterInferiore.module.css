@@ -1,0 +1,21 @@
+footer {
+    background-color: #303030;
+    height: 100px;
+    z-index: 100;
+    position: relative;
+}
+
+img {
+    margin-left: 10px;
+}
+
+button {
+    border: 1px solid #037eea;
+    background-color: transparent;
+    padding: 8px;
+    color: white;
+}
+
+h4 {
+    color: #037eea;
+}

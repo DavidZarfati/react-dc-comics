@@ -1,0 +1,34 @@
+.infoBar {
+    width: 100vw;
+    background: #0094ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 40px;
+
+}
+
+/* .secondomain {
+    background-color: #0094ff;
+} */
+
+.infoItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    gap: 12px;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.label {
+    text-align: left;
+    white-space: nowrap;
+
+}

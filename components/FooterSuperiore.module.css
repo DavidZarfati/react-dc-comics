@@ -1,0 +1,26 @@
+.sfondo {
+    background-image: url(../src/img/footer-bg.jpg);
+    height: 500px;
+}
+
+.col3 {
+    width: calc(100% / 6);
+}
+
+.col6 {
+    width: calc(100% / 6)*2;
+}
+
+h3 {
+    color: white;
+    padding-top: 40px;
+}
+
+ul {
+    color: lightgray;
+    padding-top: 20px;
+}
+
+li {
+    margin-top: 6px;
+}
