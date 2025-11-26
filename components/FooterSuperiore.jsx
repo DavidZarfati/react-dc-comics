@@ -55,7 +55,7 @@ export default function FooterSuperiore() {
                         </ul>
                     </div>
                     <div className={styles.col6}>
-                        <img src={LogoStorto} alt="" />
+                        {/* <img src={LogoStorto} alt="" /> */}
                     </div>
                 </div>
             </div>

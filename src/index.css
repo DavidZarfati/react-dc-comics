@@ -7,6 +7,11 @@
 ul {
   list-style: none;
   gap: 10px;
+  align-items: stretch;
+}
+
+li {
+  display: flex;
   align-items: center;
 }
 
@@ -40,5 +45,5 @@ header {
 .active {
   color: #037eea;
   border-bottom: 4px solid #037eea;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
 }

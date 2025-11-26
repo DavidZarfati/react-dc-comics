@@ -1,6 +1,8 @@
 .sfondo {
-    background-image: url(../src/img/footer-bg.jpg);
-    height: 500px;
+    background-image: url("../src/img/dc-logo-bg.png"), url(../src/img/footer-bg.jpg);
+    background-size: contain, cover;
+    background-repeat: no-repeat;
+    background-position: center right;
 }
 
 .col3 {
@@ -18,9 +20,10 @@ h3 {
 
 ul {
     color: lightgray;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 li {
-    margin-top: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
