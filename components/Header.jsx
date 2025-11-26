@@ -8,7 +8,7 @@ export default function Header() {
                 <div className="header-destro d-flex">
                     <ul className="d-flex">
                         <li><a href="#">Characters</a></li>
-                        <li><a href="#">Comics</a></li>
+                        <li><a href="#" className="active">Comics</a></li>
                         <li><a href="#">Movies</a></li>
                         <li><a href="#">Tv</a></li>
                         <li><a href="#">Games</a></li>

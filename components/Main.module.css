@@ -3,3 +3,7 @@ main {
     color: white;
     padding: 40px 20px;
 }
+
+main>div>h3 {
+    padding: 0;
+}

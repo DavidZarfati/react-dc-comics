@@ -36,3 +36,9 @@ header {
   max-width: 1000px;
   margin: 0 auto;
 }
+
+.active {
+  color: #037eea;
+  border-bottom: 4px solid #037eea;
+  padding-bottom: 40px;
+}
