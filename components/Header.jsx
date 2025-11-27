@@ -1,18 +1,7 @@
 import Logo from "./Logo";
 
-export default function Header() {
-    const navbarLinks = [
-        { nome: "Characters", active: false },
-        { nome: "Comics", active: true },
-        { nome: "Movies", active: false },
-        { nome: "Tv", active: false },
-        { nome: "Games", active: false },
-        { nome: "Collectibles", active: false },
-        { nome: "Videos", active: false },
-        { nome: "Fans", active: false },
-        { nome: "News", active: false },
-        { nome: "Shop", active: false },
-    ];
+export default function Header({ navbarLinks }) {
+
     /*{ <li><a href="#">Characters</a></li>
                             <li><a href="#" className="active">Comics</a></li>
                             <li><a href="#">Movies</a></li>
@@ -43,9 +32,8 @@ export default function Header() {
                     <ul className="d-flex">
                         {
                             navbarLinks.map((curPage, index) => {
-                                let colClass = curPage.active ? "active" : "";
                                 return (
-                                    <li className={colClass} key={index}>
+                                    <li className={curPage.active ? "active" : ""} key={index}>
                                         <a href="#">{curPage.nome}</a>
                                     </li>
                                 )
