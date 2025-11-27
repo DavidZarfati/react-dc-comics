@@ -42,10 +42,12 @@ export default function Header() {
                 <div className="header-destro d-flex">
                     <ul className="d-flex">
                         {
-                            navbarLinks.map((curPage) => {
+                            navbarLinks.map((curPage, index) => {
                                 let colClass = curPage.active ? "active" : "";
                                 return (
-                                    <li className={colClass}><a href="#">{curPage.nome}</a></li>
+                                    <li className={colClass} key={index}>
+                                        <a href="#">{curPage.nome}</a>
+                                    </li>
                                 )
                             })
 
